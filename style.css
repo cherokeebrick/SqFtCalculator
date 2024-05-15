@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Georgia';
+    font-variant-caps:all-petite-caps ;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #636d7e;
+    background-color: #edf2f7;
+    align-items:center;
+    justify-content: center;
+    margin: 10px;
+    border: 2px solid #636d7e;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  }
+
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  .icon-img {
+    border-radius: 10px;
+    box-shadow: none;
+    /* Apply transition for smooth effect */
+    transition: box-shadow 0.3s ease;
+  }
+  button {
+    border: none;
+  }
+  
+  button .icon-img:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  }
+  button h6:hover {
+    font-size: 10px;
+  }
+
+  input, #calculate {
+    border: 1px solid #636d7e;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+
+  }
+  #calculate {
+    background-color: #636d7e;
+    color: white;
+    font-family: 'Georgia';
+    font-variant-caps:all-petite-caps ;
+
+  }
+  button.selected {
+    background-color: #f0f0f0; 
+    border: 2px solid #636d7e; 
+  }
+  
+  /* Modify existing CSS for button hover effect */
+  button.selected:hover .icon-img {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  button.selected:hover h6 {
+    font-size: 10px;
+  }
+  #total {
+    color: #a61515;
+  }

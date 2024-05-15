@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sq Ft Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Calculate Price Per Square Foot</h2>
+      <h4>Select a Size:</h4>
+
+        <button id="modular" >
+          <img class="icon-img" src="images/2.jpg" alt="" />
+        <h6 >Modular</h6>
+      </button>
+      <button id="queen">
+        <img class="icon-img" src="images/3.jpg" alt="" />
+      <h6>Queen 8"</h6>
+    </button>
+    <button id="engineer">
+        <img class="icon-img" src="images/4.jpg" alt="" />
+      <h6>Engineer</h6>
+    </button>
+    <button id="king">
+        <img class="icon-img" src="images/5.jpg" alt="" />
+      <h6>King Size</h6>
+    </button>
+    <button id="utility">
+        <img class="icon-img" src="images/6.jpg" />
+        <h6>Utility</h6>
+    </button>
+    <button id="closure">
+        <img class="icon-img" src="images/7.jpg" alt="" />
+      <h6>Closure</h6>
+    </button>
+    <button id="norman">
+        <img class="icon-img" src="images/8.jpg" alt="" />
+      <h6>Norman</h6>
+    </button>
+    
+   
+      
+
+    <h4><label for="pricePerSqFt">Price Per Square Foot:</label></h4>
+    <input type="number" id="pricePerSqFt" />
+
+    <button id="calculate">Calculate</button>
+
+    <div class="total-div" style="display: none;">
+      <h2>Price Per Square Foot:</h2>
+      <h3 id="total"></h3> 
+    </div>
+  </div>
+      
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
