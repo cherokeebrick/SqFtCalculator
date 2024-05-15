@@ -13,7 +13,6 @@ body {
     align-items:center;
     justify-content: center;
     margin: 10px;
-     }
 
 
 .container {
@@ -22,7 +21,14 @@ body {
     padding: 20px;
     border: 2px solid #636d7e;
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  }
+
+  }
+  h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant-caps:all-petite-caps ;
+    font-size: 12px;
+    color: #636d7e;
   }
 
   img {
@@ -37,12 +43,14 @@ body {
   }
   button {
     border: none;
+    /* padding: 5px; */
+    margin: 5px;
   }
   
   button .icon-img:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  }
   button h6:hover {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   input, #calculate {
@@ -62,7 +70,7 @@ body {
   }
   button.selected {
     background-color: #f0f0f0; 
-    border: 2px solid #636d7e; 
+    border-bottom: 2px solid #636d7e; 
   }
   
   /* Modify existing CSS for button hover effect */
